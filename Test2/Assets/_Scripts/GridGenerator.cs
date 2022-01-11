@@ -82,6 +82,7 @@ public class GridGenerator : MonoBehaviour
     {
         if (CheckMathVertical() || CheckMathHorizontal()) 
         {
+            CheckMathHorizontal();
             ResetBoard();
             return true;
         }
